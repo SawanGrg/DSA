@@ -1,4 +1,4 @@
-package org.example;
+package org.example.selection;
 import java.util.*;
 //user is given an array of integers and is asked to sort the array in ascending order suching selection sort
 public class Sorting {
@@ -15,6 +15,7 @@ public class Sorting {
             }
 
             // Swap the found smallest element with the first unsorted element
+            // otherwise swapping doesnot make sense
             int temp = arr[minIndex];
             arr[minIndex] = arr[i];
             arr[i] = temp;

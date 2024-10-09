@@ -1,4 +1,4 @@
-package org.example;
+package org.example.bst;
 
 public class BSTSearch {
     public class TreeNode{

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.bst;
 
 public class BSTFormation {
     public class TreeNode{
