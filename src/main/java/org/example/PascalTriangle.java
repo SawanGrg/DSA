@@ -29,7 +29,6 @@ public class PascalTriangle {
         }
         return mainTriangle;
     }
-
     public static void main(String[] args) {
         System.out.println( PascalTriangle.generate(5));
     }
