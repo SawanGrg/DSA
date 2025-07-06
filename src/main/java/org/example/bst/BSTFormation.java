@@ -1,17 +1,7 @@
 package org.example.bst;
 
 public class BSTFormation {
-    public class TreeNode{
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode(int value) {
-            this.val = value;
-            this.left = null;
-            this.right = null;
-        }
-    }
     public TreeNode formation(TreeNode root, int value){
 //        if the root is null, then create a new root node
             if(root == null){
