@@ -19,12 +19,11 @@ public class BSTFormation {
             return root;
     }
 
-    // Helper method to print the tree (in-order traversal)
     public void inOrder(TreeNode root) {
         if (root != null) {
-            inOrder(root.left);        // Visit left subtree
-            System.out.print(root.val + " "); // Print the root's value
-            inOrder(root.right);       // Visit right subtree
+            inOrder(root.left);
+            System.out.print(root.val + " ");
+            inOrder(root.right);
         }
     }
 
